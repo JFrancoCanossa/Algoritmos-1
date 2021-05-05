@@ -7,10 +7,10 @@ int main(int argc, char **argv) {
 	float x, y,m_1, m_2, b_1, b_2;
 
 
-	cout << "Ingresar valores de la 1ra recta:\n" << endl;
+	cout << "Ingresar valores de pendiente(m) y ord. al origen(b) de la 1ra recta:\n" << endl;
 		scanf("%f %f",&m_1, &b_1);
 		printf("Valores de 1da Recta: y_1 = %.2f * x + %.2f\n ",m_1, b_1);
-	cout << "\nIngresar valores de la 2ra recta:\n" << endl;
+	cout << "\nIngresar valores de pendiente(m) y ord. al origen(b) de la 2ra recta:\n" << endl;
 		scanf("%f %f",&m_2, &b_2);
 		printf("Valores de 2da Recta: y_2 = %.2f * x + %.2f\n ",m_2, b_2);
 
